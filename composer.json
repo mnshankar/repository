@@ -1,6 +1,6 @@
 {
-    "name": "caffeinated/repository",
-    "description": "Reusable Laravel repository interface.",
+    "name": "mnshankar/repository",
+    "description": "Reusable repository interface - Forked from Caffeinated/repository, modified to work with Laravel 5.0/php 5.4",
     "keywords": ["laravel", "caffeinated", "eloquent", "repository"],
     "license": "MIT",
     "authors": [
