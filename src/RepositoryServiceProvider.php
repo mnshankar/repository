@@ -14,7 +14,7 @@ class RepositoryServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->bind('caffeinated.repository.listener', RepositoryEventListener::class);
+        $this->app->bind('caffeinated.repository.listener', 'Caffeinated\Repository\Listeners\RepositoryEventListener');
     }
 
     /**

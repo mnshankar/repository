@@ -1,17 +1,18 @@
 # Caffeinated Repository
-[![Source](http://img.shields.io/badge/source-caffeinated/repository-blue.svg?style=flat-square)](https://github.com/caffeinated/repository)
-[![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://tldrlegal.com/license/mit-license)
+**This is a fork of the Caffeinated Repository package for LARAVEL 5.0**
 
 ## Getting Started
 
 ### Introduction
 The Caffeinated Repository package allows the means to implement a standard boilerplate repository interface. This covers the standard Eloquent methods in a non-static, non-facade driven way right out of the box. Fear not though Batman! The Caffeinated Repository package does not limit you in any way when it comes to customizing (e.g overriding) the provided interface or adding your own methods.
 
+If you want database result caching to work, please note that you need a caching solution that supports "tags" (ex. Redis/Memcached).
+
 ## Installing Caffeinated Repository
 It is recommended that you install the package using Composer.
 
 ```
-composer require caffeinated/repository
+composer require mnshankar/repository
 ```
 
 This package is compliant with [PSR-1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-1-basic-coding-standard.md), [PSR-2](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md), and [PSR-4](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-4-autoloader.md). If you find any compliance oversights, please send a patch via pull request.
